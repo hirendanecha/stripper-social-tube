@@ -69,7 +69,7 @@ export class SeoService {
     }
 
     if (!tagValue.image) {
-      tagValue.image = 'https://tube.stripper.social/assets/meta.png';
+      tagValue.image = 'https://video.stripper.social/assets/meta.png';
     }
 
     this.meta.updateTag({

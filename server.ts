@@ -82,9 +82,9 @@ export function app(): express.Express {
           description:
             'Live Girls! Talk One-on-One Face-to-Face!',
           image:
-            'https://tube.stripper.social/assets/meta.png',
-          site: 'https://tube.stripper.social/',
-          url: 'https://tube.stripper.social' + params,
+            'https://video.stripper.social/assets/meta.png',
+          site: 'https://video.stripper.social/',
+          url: 'https://video.stripper.social' + params,
           keywords: 'Stripper.social tube',
         };
         if (
@@ -128,7 +128,7 @@ export function app(): express.Express {
           const talent = {
             name: post?.title || post?.albumname || 'Stripper.social Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://tube.stripper.social/assets/meta.png',
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://video.stripper.social/assets/meta.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);

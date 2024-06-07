@@ -1,6 +1,6 @@
 const loginUrl = 'https://stripper.social/login';
 const logoutUrl = 'https://stripper.social/logout';
-const frontendUrl = 'https://tube.stripper.social/';
+const frontendUrl = 'https://video.stripper.social/';
 const backendUrl =  'https://api.stripper.social/';
 
 // const frontendUrl = 'http://localhost:4200/';

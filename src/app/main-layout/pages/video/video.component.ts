@@ -645,7 +645,7 @@ export class VideoComponent implements OnInit, OnChanges {
   }
 
   openProfile(Id): void {
-    const url = `https://tube.stripper.social/channel/${Id}`;
+    const url = `https://video.stripper.social/channel/${Id}`;
     window.open(url, '_blank');
   }
 
